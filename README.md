@@ -50,19 +50,6 @@ This project is a machine learning web application that predicts stock closing p
 
 ---
 
-## Installation
-
-### Step 1: Clone the repository
-git clone https://github.com/your-username/stock-predictor.git
-cd stock-predictor
-
----
-
-### Step 2: Install dependencies
-pip install -r requirements.txt
-
----
-
 ## Requirements
 
 streamlit

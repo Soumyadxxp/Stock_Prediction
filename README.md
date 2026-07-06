@@ -52,13 +52,13 @@ This project is a machine learning web application that predicts stock closing p
 
 ## Requirements
 
-streamlit
-torch
-numpy
-pandas
-yfinance
-scikit-learn
-matplotlib
+- streamlit
+- torch
+- numpy
+- pandas
+- yfinance
+- scikit-learn
+- matplotlib
 
 ---
 

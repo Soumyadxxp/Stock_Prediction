@@ -1,6 +1,13 @@
 # Stock Price Predictor using LSTM (PyTorch + Streamlit)
 
 This project is a machine learning web application that predicts stock closing prices using a deep learning LSTM (Long Short-Term Memory) model. The system uses historical stock data from Yahoo Finance and provides an interactive web interface built with Streamlit.
+<img width="1600" height="1112" alt="image" src="https://github.com/user-attachments/assets/caab8422-4488-48fc-901a-b2d89fecfaab" />
+<img width="1600" height="1112" alt="image" src="https://github.com/user-attachments/assets/1008e054-7cb5-442e-b51a-3e1a3fa48ab8" />
+<img width="1600" height="1112" alt="image" src="https://github.com/user-attachments/assets/c197a7ca-e1e9-4f89-bda9-96e16b09e00e" />
+<img width="1600" height="1112" alt="image" src="https://github.com/user-attachments/assets/42c64ebb-e7ad-426a-87f5-e86e801b073b" />
+<img width="1600" height="1112" alt="image" src="https://github.com/user-attachments/assets/a7f6a127-e86a-4f28-85d7-ef068d78dcb4" />
+<img width="1600" height="1112" alt="image" src="https://github.com/user-attachments/assets/d78b4a67-4d16-4ff2-bc5e-6f0fa2a78b80" />
+<img width="1600" height="1112" alt="image" src="https://github.com/user-attachments/assets/7fa92b43-e834-4e9c-b2ca-724d04528d93" />
 
 ---
 

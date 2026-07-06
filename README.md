@@ -28,15 +28,6 @@ This project is a machine learning web application that predicts stock closing p
 
 ---
 
-## Project Structure
-
-stock-predictor/
-├── app.py
-├── *_model.pth
-└── README.md
-
----
-
 ## How It Works
 
 1. User enters a stock symbol (example: AAPL, TSLA, GOOG)

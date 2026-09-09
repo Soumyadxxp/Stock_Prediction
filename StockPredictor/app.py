@@ -86,15 +86,15 @@ def load_or_train_model(stock_symbol, train_data):
     torch.save(model.state_dict(), model_path)
     status_text.empty()
     progress_bar.empty()
-    st.success("✅ Model trained and saved.")
+    st.success("Model trained and saved.")
 
     return model, scaler
 
 # ---------------------------
 # 3. Streamlit UI
 # ---------------------------
-st.set_page_config(page_title="📈 Stock Predictor", layout="wide")
-st.title("📈 Stock Predictor with PyTorch LSTM")
+st.set_page_config(page_title="Stock Predictor", layout="wide")
+st.title("Stock Predictor with PyTorch LSTM")
 st.markdown("Enter a stock symbol to see its predicted vs actual closing prices.")
 
 # User input
@@ -111,7 +111,7 @@ if st.button("Run Prediction"):
         st.stop()
 
     # Show raw data
-    st.subheader("📊 Raw Stock Data")
+    st.subheader("Raw Stock Data")
     st.write(data.tail(10))
 
     # Split into train/test (80/20)
@@ -148,7 +148,7 @@ if st.button("Run Prediction"):
     y_actual = y_test * scale
 
     # Plot
-    st.subheader("📉 Prediction vs Actual (Test Set)")
+    st.subheader("Prediction vs Actual (Test Set)")
     fig, ax = plt.subplots(figsize=(12, 6))
     ax.plot(pred_actual, 'r', label='Predicted Price', linewidth=2)
     ax.plot(y_actual, 'g', label='Actual Price', linewidth=2)
@@ -165,4 +165,4 @@ if st.button("Run Prediction"):
     st.metric("Mean Squared Error", f"{mse:.2f}")
     st.metric("Mean Absolute Error", f"{mae:.2f}")
 
-    st.success("🎉 Prediction complete!")
+    st.success("Prediction complete!")
